@@ -8,14 +8,14 @@ import 'package:app_built_for_fun/pokomon/models/pokemon_list_result_model.dart'
 import 'package:app_built_for_fun/pokomon/providers/all_pokenmon_provider.dart';
 import 'package:app_built_for_fun/pokomon/providers/favourite_pokemon_provider.dart';
 
-class HomePage extends ConsumerStatefulWidget {
-  const HomePage({super.key});
+class PokemonHomePage extends ConsumerStatefulWidget {
+  const PokemonHomePage({super.key});
 
   @override
-  ConsumerState<HomePage> createState() => _HomePageState();
+  ConsumerState<PokemonHomePage> createState() => _PokemonHomePageState();
 }
 
-class _HomePageState extends ConsumerState<HomePage> {
+class _PokemonHomePageState extends ConsumerState<PokemonHomePage> {
   late HomePageData homePageData;
   late AllPokemonController allPokemonController;
   final ScrollController allPokemonScrollController = ScrollController();

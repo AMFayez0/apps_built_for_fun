@@ -1,4 +1,4 @@
-import 'package:app_built_for_fun/pokomon/pages/home_page.dart';
+import 'package:app_built_for_fun/navigation/home_page.dart';
 import 'package:app_built_for_fun/services/http_services.dart';
 import 'package:app_built_for_fun/services/loacl_storage.dart';
 import 'package:flutter/material.dart';
